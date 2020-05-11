@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('C:\\Users\\aditya\\Downloads\\nyc_weather_report.csv')
+df = pd.read_csv('nyc_weather_report.csv')
 print(df)
 print(df['Temperature'].max())  #max in temp column
 print(df['EST'][df['Events']=='Rain'])  #dates on which event was rain
